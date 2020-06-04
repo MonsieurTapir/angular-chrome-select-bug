@@ -1,0 +1,6 @@
+<ng-container [ngSwitch]="unit">
+  <span *ngSwitchCase="myEnum.CM">cm</span>
+  <span *ngSwitchCase="myEnum.MM">mm</span>
+  <span *ngSwitchCase="myEnum.M">m</span>
+  <span *ngSwitchDefault>ERROR</span>
+</ng-container>
